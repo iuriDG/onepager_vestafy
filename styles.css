@@ -747,8 +747,8 @@ section { padding: 80px; }
 .timeline-line {
   position: absolute;
   top: 17px;
-  left: 5%;
-  right: 5%;
+  left: 0%;
+  right: 0%;
   height: 2px;
   background: var(--dark-border);
   z-index: 0;
