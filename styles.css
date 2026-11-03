@@ -1019,3 +1019,37 @@ footer {
   /* Footer divider becomes horizontal */
   .footer-divider { width: 48px; height: 1px; margin: 0; }
 }
+
+.nav-logo-img,
+.hero-logo-img,
+.browser-logo-img,
+.footer-logo-img {
+  display: block;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-logo-img {
+  height: 30px;
+}
+
+.hero-logo-img {
+  height: 64px;
+  max-width: 100%;
+}
+
+.browser-logo-img {
+  height: 22px;
+}
+
+.footer-logo-img {
+  height: 32px;
+}
+
+@media (max-width: 600px) {
+  .hero-logo-img {
+    height: auto;
+    width: 220px;
+    max-width: 100%;
+  }
+}
