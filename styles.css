@@ -1025,31 +1025,34 @@ footer {
 .browser-logo-img,
 .footer-logo-img {
   display: block;
-  width: auto;
+  height: auto;
   object-fit: contain;
 }
 
 .nav-logo-img {
-  height: 30px;
+  width: 110px;
 }
 
 .hero-logo-img {
-  height: 64px;
+  width: 240px;
   max-width: 100%;
+  flex-shrink: 0;
 }
 
 .browser-logo-img {
-  height: 22px;
+  width: 80px;
 }
 
 .footer-logo-img {
-  height: 32px;
+  width: 120px;
 }
 
 @media (max-width: 600px) {
   .hero-logo-img {
-    height: auto;
     width: 220px;
-    max-width: 100%;
+  }
+
+  .hero-logo {
+    gap: 20px;
   }
 }
